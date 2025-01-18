@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+    --tertiary-color: rgb(172, 172, 40);
+    box-sizing: border-box;
+  }
