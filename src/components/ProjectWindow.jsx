@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { line } from 'framer-motion/client';
 
 const ProjectWindow = ({ project, position, onClose }) => {
     if (!position) return null;
@@ -9,7 +8,7 @@ const ProjectWindow = ({ project, position, onClose }) => {
 
     return (
         <motion.div
-            className="fixed inset-0 bg-black bg-opacity-50 "
+            className="fixed inset-0 bg-black bg-opacity-50 z-50"
             onClick={onClose}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

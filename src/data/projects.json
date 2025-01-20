@@ -1,24 +1,55 @@
 [
-  {
-    "id": 1,
-    "name": "Project 1",
-    "description": "Opis projektu 1",
-    "image": "https://placehold.co/1000x1000",
-    "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-  },
-  {
-    "id": 2,
-    "name": "Project 2",
-    "description": "Opis projektu 2",
-    "image": "https://placehold.co/1000x1000",
-    "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-
-  },
-  {
-    "id": 3,
-    "name": "Project 3",
-    "description": "Opis projektu 3",
-    "image": "https://placehold.co/1000x1000",
-    "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-  }
-]
+	{
+	  "title": "Projects",
+	  "projects": [
+		{
+		  "id": 1,
+		  "name": "Project 1",
+		  "description": "Opis projektu 1",
+		  "image": "https://placehold.co/1000x1000",
+		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book..."
+		},
+		{
+		  "id": 2,
+		  "name": "Project 2",
+		  "description": "Opis projektu 2",
+		  "image": "https://placehold.co/1000x1000",
+		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industrLorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...y..."
+		},
+		{
+		  "id": 3,
+		  "name": "Project 3",
+		  "description": "Opis projektu 3",
+		  "image": "https://placehold.co/1000x1000",
+		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+		}
+	  ]
+	},
+	{
+	  "title": "More Projects",
+	  "projects": [
+		{
+		  "id": 4,
+		  "name": "Project 4",
+		  "description": "Opis projektu 4",
+		  "image": "https://placehold.co/1000x1000",
+		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+		},
+		{
+		  "id": 5,
+		  "name": "Project 5",
+		  "description": "Opis projektu 5",
+		  "image": "https://placehold.co/1000x1000",
+		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+		},
+		{
+		  "id": 6,
+		  "name": "Project 6",
+		  "description": "Opis projektu 6",
+		  "image": "https://placehold.co/1000x1000",
+		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+		}
+	  ]
+	}
+  ]
+  
