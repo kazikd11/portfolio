@@ -16,7 +16,7 @@ const ProjectWindow = ({ project, position, onClose }) => {
             exit={{ opacity: 0 }}
         >
             <motion.div
-                className="bg-primary shadow-xl rounded-lg overflow-hidden"
+                className="bg-quaternary shadow-xl rounded-lg overflow-hidden"
                 style={{
                     position: 'absolute',
                 }}
