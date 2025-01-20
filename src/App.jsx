@@ -37,7 +37,7 @@ const App = () => {
 					</a>
 				</div>
 			</nav>
-			<div className="custom-scroll overflow-auto h-[100vh] pt-8" id="main-scroll">
+			<div className="custom-scroll overflow-auto h-[100vh] pt-8 pb-20" id="main-scroll">
 			{sections.map((section, i) => (
 				<ProjectSection
 					key={i}
