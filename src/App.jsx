@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { FaGithub, FaLinkedin, FaFilePdf } from 'react-icons/fa';
 
 import ProjectSection from './components/ProjectSection'
@@ -51,7 +51,6 @@ const App = () => {
 			{openedProject && (
 				<ProjectWindow project={openedProject} position={windowPosition} onClose={handleCloseProject} />
 			)}
-
 		</div>
 	);
 };
