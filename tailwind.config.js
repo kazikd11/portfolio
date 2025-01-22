@@ -8,7 +8,10 @@ export default {
         secondary: 'var(--secondary-color)',
         tertiary: 'var(--tertiary-color)',
         quaternary: 'var(--quaternary-color)',
-      }
+      },
+      content: {
+        bullet: '"•"',
+      },
     },
   },
   plugins: [],

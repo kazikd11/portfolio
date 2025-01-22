@@ -18,7 +18,7 @@ const ProjectIframe = ({ onLoad, project, onClose }) => {
     };
     return (
         <div className="fixed w-[95vw] h-[95vh] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-none shadow-xl overflow-hidden z-40">
-            <div className="absolute flex flex-row-reverse items-center gap-2 p-2 bg-none w-full z-60">
+            <div className="absolute flex flex-row-reverse items-center gap-2 p-2 bg-none w-full z-60 pr-6">
                 <button
                     className="p-2 opacity-50 hover:opacity-100 bg-primary rounded-full"
                     onClick={handleReload}
