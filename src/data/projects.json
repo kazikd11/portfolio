@@ -6,23 +6,32 @@
 		  "id": 1,
 		  "name": "Project 1",
 		  "description": "Opis projektu 1",
-		  "image": "https://placehold.co/1000x1000",
+		  "image": "test.png",
 		  "url": "https://www.majkeloess.dev/",
-		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book..."
+		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book...",
+		  "technologies": ["React", "Framer Motion", "Tailwind CSS"],
+		  "annotation" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+		  "github": ""
 		},
 		{
 		  "id": 2,
 		  "name": "Project 2",
 		  "description": "Opis projektu 2",
 		  "image": "https://placehold.co/1000x1000",
-		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industrLorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...y..."
+		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industrLorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...y...",
+		  "technologies": [],
+		  "annotation" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+		  "github": ""
 		},
 		{
 		  "id": 3,
 		  "name": "Project 3",
 		  "description": "Opis projektu 3",
 		  "image": "https://placehold.co/1000x1000",
-		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+		  "technologies": [],
+		  "annotation" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+		  "github": ""
 		}
 	  ]
 	},
@@ -34,21 +43,30 @@
 		  "name": "Project 4",
 		  "description": "Opis projektu 4",
 		  "image": "https://placehold.co/1000x1000",
-		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+		  "technologies": [],
+		  "annotation" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+		  "github": ""
 		},
 		{
 		  "id": 5,
 		  "name": "Project 5",
 		  "description": "Opis projektu 5",
 		  "image": "https://placehold.co/1000x1000",
-		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+		  "technologies": [],
+		  "annotation" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+		  "github": ""
 		},
 		{
 		  "id": 6,
 		  "name": "Project 6",
 		  "description": "Opis projektu 6",
 		  "image": "https://placehold.co/1000x1000",
-		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+		  "technologies": [],
+		  "annotation" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+		  "github": ""
 		}
 	  ]
 	}
