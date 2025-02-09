@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import ProjectIframe from "./ProjectIframe";
 
@@ -43,7 +43,7 @@ const ProjectWindow = ({ project, position, onClose }) => {
                         left: "50%",
                         translateY: "-50%",
                         translateX: "-50%",
-                        scale: window.innerWidth * 0.95 / width,
+                        scale: (window.innerWidth * 0.95) / width,
                     }}
                     transition={{
                         duration: 1,
@@ -54,9 +54,13 @@ const ProjectWindow = ({ project, position, onClose }) => {
                 />
             )}
 
-            {isAnimationComplete && 
-                <ProjectIframe onLoad={handleIframeLoad} project={project} onClose={onClose}></ProjectIframe>
-            }
+            {isAnimationComplete && (
+                <ProjectIframe
+                    onLoad={handleIframeLoad}
+                    project={project}
+                    onClose={onClose}
+                ></ProjectIframe>
+            )}
         </>
     );
 };

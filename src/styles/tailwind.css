@@ -23,14 +23,16 @@
 }
 
 .custom-scroll::-webkit-scrollbar-track {
-	background: var(--tertiary-color);
+	background: transparent;
 }
 
-#main-scroll::-webkit-scrollbar-track {
-	background: var(--secondary-color);
-}
 
 .icon{
 	width: 1.5rem;
 	height: 1.5rem;
+}
+
+svg{
+	width: 4rem;
+	height: 4rem;
 }
