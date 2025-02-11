@@ -1,19 +1,14 @@
 import { FaGithub, FaLinkedin, FaFilePdf } from "react-icons/fa";
 import { motion } from "framer-motion";
-import  HtmlIcon from '../assets/HtmlIcon.svg?react';
+import Icons from "./Icons";
 
 const Navbar = () => {
     return (
         <nav className="bg-primary flex items-center justify-between text-3xl font-bold p-4 sticky w-full z-10">
-            <motion.p whileHover={{ scale: 1.1 }} className="ml-2">Michał Kaźmierczak</motion.p>
-            <div className="flex space-x-4">
-                
-          
-            <HtmlIcon width={100} height={100} className="stroke-white"/>
-          
-          
-          
-            </div>
+            <motion.p whileHover={{ scale: 1.1 }} className="ml-2">
+                Michał Kaźmierczak
+            </motion.p>
+            <Icons />
             <div className="flex space-x-4">
                 <a
                     href="https://github.com/kazikd11"
