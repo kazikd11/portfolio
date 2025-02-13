@@ -32,7 +32,8 @@
 	height: 1.5rem;
 }
 
-svg{
-	width: 4rem;
-	height: 4rem;
-}
+.bg-custom-image {
+	background-image: url('/src/assets/tempbackground.png');
+	background-size: cover;
+	background-position: center;
+  }
