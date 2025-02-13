@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 
-const ProjectSection = ({ projects, title, handleCardDoubleClick }) => {
+const ProjectSection = ({ projects, title, handleCardDoubleClick, buttonRef }) => {
   return (
     <section className="mb-8">
       <h2 className="text-3xl font-bold text-center mb-3">{title}</h2>
@@ -10,6 +10,7 @@ const ProjectSection = ({ projects, title, handleCardDoubleClick }) => {
           <ProjectCard
             key={project.id}
             project={project}
+            buttonRef={project.id === 1 ? buttonRef : null}
             onDoubleClick={(pos) => {
               handleCardDoubleClick(project, pos);
             }}

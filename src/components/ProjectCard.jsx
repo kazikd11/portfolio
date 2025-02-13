@@ -1,14 +1,14 @@
-import React from "react";
 import { useRef, useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { InformationCircleIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { FaGithub } from "react-icons/fa";
 
-const ProjectCard = ({ project, onDoubleClick }) => {
+const ProjectCard = ({ project, onDoubleClick, buttonRef }) => {
     const [showInfo, setShowInfo] = useState(false);
     const imgRef = useRef(null);
     const [contentHeight, setContentHeight] = useState(0);
     const descriptionRef = useRef(null);
+
 
     const handleDoubleClick = () => {
         if (!showInfo) {
@@ -57,7 +57,7 @@ const ProjectCard = ({ project, onDoubleClick }) => {
                         >
                             <FaGithub className="w-6 h-6 cursor-pointer" />
                         </a>
-                        <button onClick={handleInfo}>
+                        <button onClick={handleInfo} ref={buttonRef}>
                             {showInfo ? (
                                 <XMarkIcon className="w-7 h-7 cursor-pointer" />
                             ) : (

@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
+import { useState, useRef } from 'react';
 import ProjectSection from './components/ProjectSection';
 import ProjectWindow from './components/ProjectWindow';
 import Navbar from './components/Navbar';
 import sections from './data/projects.json';
+import Cursor from './components/Cursor';
 
 const App = () => {
+	const buttonRef = useRef(null);
+
 	const [openedProject, setOpenedProject] = useState(null);
 	const [windowPosition, setWindowPostion] = useState(null);
 
@@ -20,7 +23,9 @@ const App = () => {
 	return (
 		<div className="min-h-screen bg-primary relative">
 			<div className="absolute inset-0 bg-custom-image opacity-20 z-0"></div>
-
+			
+			{(window.self === window.top) && <Cursor buttonRef={buttonRef}/>}
+			
 			<Navbar />
 
 			<div className="custom-scroll overflow-auto h-[100vh] pt-8 pb-20 relative z-10">
@@ -30,6 +35,7 @@ const App = () => {
 						title={section.title}
 						projects={section.projects}
 						handleCardDoubleClick={handleCardDoubleClick}
+						buttonRef={i === 0 ? buttonRef : null}
 					/>
 				))}
 			</div>
