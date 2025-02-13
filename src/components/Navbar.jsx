@@ -8,7 +8,7 @@ const Navbar = () => {
             <motion.p whileHover={{ scale: 1.1 }} className="ml-4">
                 Michał Kaźmierczak
             </motion.p>
-            <Icons />
+            <Icons className=""/>
             <div className="flex space-x-4 mr-4">
                 <a
                     href="https://github.com/kazikd11"
