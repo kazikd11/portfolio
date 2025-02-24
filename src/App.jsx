@@ -1,15 +1,23 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import ProjectSection from './components/ProjectSection';
 import ProjectWindow from './components/ProjectWindow';
 import Navbar from './components/Navbar';
-import sections from './data/projects.json';
 import Cursor from './components/Cursor';
 
 const App = () => {
+
+
 	const buttonRef = useRef(null);
 
 	const [openedProject, setOpenedProject] = useState(null);
 	const [windowPosition, setWindowPostion] = useState(null);
+	const [sections, setProjects] = useState([]);
+
+	useEffect(() => {
+		fetch("/projects.json")
+		  .then((res) => res.json())
+		  .then((data) => setProjects(data));
+	  }, []);
 
 	const handleCardDoubleClick = (proj, pos) => {
 		setOpenedProject(proj);
