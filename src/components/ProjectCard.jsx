@@ -50,7 +50,7 @@ const ProjectCard = ({ project, onDoubleClick, buttonRef }) => {
                         <p>{project.description}</p>
                     </div>
                     <div className="flex items-center space-x-4 pr-1">
-                        {project.url && (
+                        {project.github && (
                         <a
                             href={project.github}
                             target="_blank"
