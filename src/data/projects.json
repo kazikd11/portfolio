@@ -4,71 +4,66 @@
 	  "projects": [
 		{
 		  "id": 1,
-		  "name": "Project 1",
-		  "description": "Opis projektu 1",
-		  "image": "test.png",
-		  "url": "https://www.majkeloess.dev/",
-		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book...",
-		  "technologies": ["React", "Framer Motion", "Tailwind CSS"],
-		  "annotation" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-		  "github": ""
+		  "name": "Portfolio Website",
+		  "description": "A portfolio website showcasing my skills and projects.",
+		  "image": "portfolioimg.png",
+		  "url": "https://kazikd.dev",
+		  "longDescription": "This is my personal portfolio, built with React and Framer Motion, using Vite for fast development and optimized performance. The site serves as a presentation of my abilities and experience in web development.",
+		  "github": "https://github.com/kazikd11/portfolio"
 		},
 		{
 		  "id": 2,
-		  "name": "Project 2",
-		  "description": "Opis projektu 2",
-		  "image": "https://placehold.co/1000x1000",
-		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipm is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting industry...Lorem Ipsum is simply dummy text of the printing and typesetting inimp",
-		  "technologies": [],
-		  "annotation" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-		  "github": ""
+		  "name": "PyBet",
+		  "description": "A group project - AI-powered betting assistant.",
+		  "image": "pybetimg.jpeg",
+		  "longDescription": "PyBet is a group project utilizing Vue.js for the frontend and Django for the backend. It employs machine learning to identify profitable odds on Polish bookmaker websites. I was responsible for team-leading the backend development and writing unit tests. The project will be deployed soon.",
+		  "github": "https://github.com/matadamczyk/PyBet"
 		},
 		{
 		  "id": 3,
-		  "name": "Project 3",
-		  "description": "Opis projektu 3",
-		  "image": "https://placehold.co/1000x1000",
-		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
-		  "technologies": [],
-		  "annotation" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-		  "github": ""
+		  "name": "GetProxy",
+		  "description": "A simple Java-based proxy within an iframe.",
+		  "image": "proxyimg.png",
+		  "url": "https://proxy-six-ivory.vercel.app/",
+		  "longDescription": "GetProxy is a simple Java-based proxy that runs inside an iframe. It was created to overcome iframe navigation limitations. Built with Spring Boot (using an embedded Tomcat server) and a minimalistic React frontend. Currently, the core functionality is unavailable due to the lack of a deployed backend.",
+		  "github": "https://github.com/kazikd11/Proxy"
 		}
 	  ]
 	},
 	{
-	  "title": "More Projects",
+	  "title": "University Projects",
 	  "projects": [
 		{
 		  "id": 4,
-		  "name": "Project 4",
-		  "description": "Opis projektu 4",
-		  "image": "https://placehold.co/1000x1000",
-		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
-		  "technologies": [],
-		  "annotation" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-		  "github": ""
+		  "name": "Harmonic Motion Simulator",
+		  "description": "A simple physics simulation with Node.js backend.",
+		  "image": "symulatorimg.png",
+		  "url": "https://tehniki.vercel.app/",
+		  "longDescription": "This project is a simple front-end simulation of harmonic motion, connected to a Node.js backend. The backend allows user account creation, login, and simulation setting storage. It also features cookies to store login states. Currently, the backend is disabled.",
+		  "github": "https://github.com/kazikd11/Tehniki"
 		},
 		{
 		  "id": 5,
-		  "name": "Project 5",
-		  "description": "Opis projektu 5",
-		  "image": "https://placehold.co/1000x1000",
-		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
-		  "technologies": [],
-		  "annotation" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-		  "github": ""
+		  "name": "Mountain Trails Database",
+		  "description": "An MVC-based Spring Boot application.",
+		  "image": "mvcimg.png",
+		  "longDescription": "This project is an MVC application built with Spring Boot. While the UI is basic, the project helped me understand the MVC model and database connectivity in Spring. It uses Java, Spring Boot (Spring Web, Spring Data JDBC), Thymeleaf, REST API, and PostgreSQL. Currently, the application is offline.",
+		  "github": "https://github.com/kazikd11/MVC-jdbc"
 		},
 		{
 		  "id": 6,
-		  "name": "Project 6",
-		  "description": "Opis projektu 6",
-		  "image": "https://placehold.co/1000x1000",
-		  "longDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
-		  "technologies": [],
-		  "annotation" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-		  "github": ""
+		  "name": "OCR Raider",
+		  "description": "A basic OCR application with a custom algorithm.",
+		  "image": "ocrimg.png",
+		  "url": "https://ocr-seven-pi.vercel.app/",
+		  "longDescription": "OCR Raider is a simple full-stack project created as a team effort. It features a custom-built text recognition algorithm written in Python. The backend is currently offline.",
+		  "github": "https://github.com/kazikd11/OCR"
 		}
 	  ]
+	},
+	{
+	  "title": "Ongoing Projects",
+	  "projects": []
 	}
   ]
   

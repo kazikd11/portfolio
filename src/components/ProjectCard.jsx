@@ -11,7 +11,7 @@ const ProjectCard = ({ project, onDoubleClick, buttonRef }) => {
 
 
     const handleDoubleClick = () => {
-        if (!showInfo) {
+        if (!showInfo && project.url) {
             const rect = imgRef.current.getBoundingClientRect();
             onDoubleClick(rect);
         }
@@ -34,7 +34,7 @@ const ProjectCard = ({ project, onDoubleClick, buttonRef }) => {
         >
             <div className="w-[45vw] h-[45vh] lg:w-[30vw] lg:h-[30vh]">
                 <motion.img
-                    className="object-cover w-full h-full cursor-pointer"
+                    className={`object-cover w-full h-full ${project.url? "cursor-pointer" : "cursor-not-allowed"}`}
                     src={project.image}
                     alt={project.name}
                     ref={imgRef}
@@ -50,6 +50,7 @@ const ProjectCard = ({ project, onDoubleClick, buttonRef }) => {
                         <p>{project.description}</p>
                     </div>
                     <div className="flex items-center space-x-4 pr-1">
+                        {project.url && (
                         <a
                             href={project.github}
                             target="_blank"
@@ -57,6 +58,7 @@ const ProjectCard = ({ project, onDoubleClick, buttonRef }) => {
                         >
                             <FaGithub className="w-6 h-6 cursor-pointer" />
                         </a>
+                        )}
                         <button onClick={handleInfo} ref={buttonRef}>
                             {showInfo ? (
                                 <XMarkIcon className="w-7 h-7 cursor-pointer" />

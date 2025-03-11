@@ -25,7 +25,7 @@ const Navbar = () => {
                     <FaLinkedin className="icon hover:text-blue-400" />
                 </a>
                 <a
-                    href="/BlankCV.pdf"
+                    href="/CV_Michal_Kazmierczak.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
