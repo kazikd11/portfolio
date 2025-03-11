@@ -25,7 +25,7 @@
 		  "description": "A simple Java-based proxy within an iframe.",
 		  "image": "proxyimg.png",
 		  "url": "https://proxy-six-ivory.vercel.app/",
-		  "longDescription": "GetProxy is a simple Java-based proxy that runs inside an iframe. It was created to overcome iframe navigation limitations. Built with Spring Boot (using an embedded Tomcat server) and a minimalistic React frontend. Currently, the core functionality is unavailable due to the lack of a deployed backend.",
+		  "longDescription": "GetProxy is a simple Java-based proxy that runs inside an iframe. It was created to overcome iframe navigation limitations. Built with Spring Boot and a minimalistic React frontend. Currently, the core functionality is unavailable due to the lack of a deployed backend.",
 		  "github": "https://github.com/kazikd11/Proxy"
 		}
 	  ]
