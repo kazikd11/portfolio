@@ -14,7 +14,7 @@
 		{
 		  "id": 2,
 		  "name": "PyBet",
-		  "description": "A group project - AI-powered betting assistant.",
+		  "description": "Machine learning powered betting assistant.",
 		  "image": "pybetimg.jpeg",
 		  "longDescription": "PyBet is a group project utilizing Vue.js for the frontend and Django for the backend. It employs machine learning to identify profitable odds on Polish bookmaker websites. I was responsible for team-leading the backend development and writing unit tests. The project will be deployed soon.",
 		  "github": "https://github.com/matadamczyk/PyBet"
