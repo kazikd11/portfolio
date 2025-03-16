@@ -5,7 +5,7 @@
 		{
 		  "id": 1,
 		  "name": "Portfolio Website",
-		  "description": "A portfolio website showcasing my skills and projects.",
+		  "description": "Portfolio website showcasing my skills and projects.",
 		  "image": "portfolioimg.png",
 		  "url": "https://kazikd.dev",
 		  "longDescription": "This is my personal portfolio, built with React and Framer Motion, using Vite for fast development and optimized performance. The site serves as a presentation of my abilities and experience in web development.",
@@ -22,7 +22,7 @@
 		{
 		  "id": 3,
 		  "name": "GetProxy",
-		  "description": "A simple Java-based proxy within an iframe.",
+		  "description": "Simple Java-based proxy within an iframe.",
 		  "image": "proxyimg.png",
 		  "url": "https://proxy-six-ivory.vercel.app/",
 		  "longDescription": "GetProxy is a simple Java-based proxy that runs inside an iframe. It was created to overcome iframe navigation limitations. Built with Spring Boot and a minimalistic React frontend. Currently, the core functionality is unavailable due to the lack of a deployed backend.",
@@ -36,7 +36,7 @@
 		{
 		  "id": 4,
 		  "name": "Harmonic Motion Simulator",
-		  "description": "A simple physics simulation with Node.js backend.",
+		  "description": "Simple physics simulation with Node.js backend.",
 		  "image": "symulatorimg.png",
 		  "url": "https://tehniki.vercel.app/",
 		  "longDescription": "This project is a simple front-end simulation of harmonic motion, connected to a Node.js backend. The backend allows user account creation, login, and simulation setting storage. It also features cookies to store login states. Currently, the backend is disabled.",
@@ -45,7 +45,7 @@
 		{
 		  "id": 5,
 		  "name": "Mountain Trails Database",
-		  "description": "An MVC-based Spring Boot application.",
+		  "description": "MVC-based Spring Boot application.",
 		  "image": "mvcimg.png",
 		  "longDescription": "This project is an MVC application built with Spring Boot. While the UI is basic, the project helped me understand the MVC model and database connectivity in Spring. It uses Java, Spring Boot (Spring Web, Spring Data JDBC), Thymeleaf, REST API, and PostgreSQL. Currently, the application is offline.",
 		  "github": "https://github.com/kazikd11/MVC-jdbc"
@@ -53,7 +53,7 @@
 		{
 		  "id": 6,
 		  "name": "OCR Raider",
-		  "description": "A basic OCR application with a custom algorithm.",
+		  "description": "Basic OCR application with a custom algorithm.",
 		  "image": "ocrimg.png",
 		  "url": "https://ocr-seven-pi.vercel.app/",
 		  "longDescription": "OCR Raider is a simple full-stack project created as a team effort. It features a custom-built text recognition algorithm written in Python. The backend is currently offline.",
